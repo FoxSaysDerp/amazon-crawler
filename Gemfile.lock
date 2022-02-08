@@ -1,0 +1,32 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    childprocess (4.1.0)
+    nokogiri (1.13.1-x64-mingw32)
+      racc (~> 1.4)
+    phantomjs (2.1.1.0)
+    racc (1.6.0)
+    regexp_parser (2.2.0)
+    rexml (3.2.5)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.1.0)
+      childprocess (>= 0.5, < 5.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2)
+    watir (7.1.0)
+      regexp_parser (>= 1.2, < 3)
+      selenium-webdriver (~> 4.0)
+    watir-webdriver (0.9.9)
+      selenium-webdriver (>= 2.46.2)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  nokogiri
+  phantomjs
+  watir
+  watir-webdriver
+
+BUNDLED WITH
+   1.17.2
